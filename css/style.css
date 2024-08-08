@@ -1,2 +1,15 @@
 *{margin: 0;padding: 0;box-sizing: border-box;font-family: "Montserrat", sans-serif;font-optical-sizing: auto;font-weight: 400;font-style: normal;}
-.main-list a{text-decoration: none;}
+.container{max-width: 1600px;width: 90%;margin: 0 auto;}
+h3{font-size: 28px;color: #fff;font-weight: 600;}
+h2{font-size: 40px;font-weight: 600;color: #C0C0C0;}
+img{display: block;}
+/* ==================================Header======================== */
+header{background-color: #000;padding: 30px 0;}
+.container{display: flex;justify-content: space-between;}
+.container a{text-decoration: none;font-size: 24px;color: #fff;padding: 0 25px;cursor: pointer;}
+.container a:hover{color:#FF5000;}
+
+/* ===================================================banner==================================== */
+.banner{position: relative;}
+.banner img{width: 100%;}
+.banner .content{position: absolute;top: 35%;left: 10%;}
