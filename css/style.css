@@ -21,8 +21,8 @@ header .container a:hover{color:#FF5000;}
 
 /* =====================================================tech-skill================================================= */
 .tech-skill{padding: 100px 0;background-color: #000;}
-.tech-skill ul{display: grid;grid-template-columns: repeat(5, 22%);}
-.tech-skill li{color: #fff;font-size: 35px;line-height: 50px;font-weight: 600;cursor: pointer;}
+.tech-skill ul{display: grid;grid-template-columns: repeat(5, 22%);width: 100%;}
+.tech-skill li{color: #fff;font-size: 35px;line-height: 50px;font-weight: 600;cursor: pointer;width: max-content;}
 .tech-skill .heading-2{text-align: center;margin-bottom: 30px;}
 
 /* ============================================================education===================================================== */
