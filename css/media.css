@@ -5,6 +5,7 @@
 }
 
 @media screen and (max-width: 1500px){
+    .tech-skill, .education, .experience, .Project, footer{padding: 70px 0 50px 0;}
     p{font-size: 20px;}
     .banner-section .content{width: 45%;}
     h2{font-size: 36px;}
@@ -13,9 +14,13 @@
     h3{font-size: 28px;}
     .experience .com-name .heading-4, .experience .com-name .heading-5{font-size: 22px;}
 }
+@media screen and (max-width: 1300px){
+    .tech-skill, .education, .experience, .Project, footer{padding: 60px 0 40px 0;}
+}
 @media screen and (max-width: 1279px){
     .tech-skill li{font-size: 22px;}
-    
+    .tech-skill, .education, .experience, .Project{padding: 60px 0 0 0;}
+    footer{padding: 60px 0 30px 0;}
 }
 
 @media screen and (max-width: 1023px){
@@ -26,10 +31,18 @@
     p{font-size: 18px;}
     .experience .com-name .heading-3{line-height: 32px;}
     .experience .com-name .heading-4, .experience .com-name .heading-5{font-size: 20px;}
+    
    
 }
 @media screen and (max-width: 650px){
     .tech-skill ul{display: grid;grid-template-columns: 1fr 1fr;}
-    .tech-skill li{font-size: 20px;}
+    .tech-skill li{font-size: 18px;}
     .education .box1 .heading-3{line-height: 24px;}
+    p{font-size: 12px;line-height: 14px;}
+    .banner-section .para{margin: 10px 0;}
+    h2{font-size: 22px;}
+    .banner-section .btn a{font-size: 12px; line-height: 10px;}
+    .banner-section .btn{padding: 3px 10px 5px 10px;}
+    .banner-section .content{top: 10%;}
+    header .container a{font-size: 10px;padding: 0 5px;}
 }
