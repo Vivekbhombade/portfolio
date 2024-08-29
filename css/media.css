@@ -31,6 +31,7 @@
     p{font-size: 18px;}
     .experience .com-name .heading-3{line-height: 32px;}
     .experience .com-name .heading-4, .experience .com-name .heading-5{font-size: 20px;}
+    .tech-skill ul{display: grid;grid-template-columns: 1fr 1fr 1fr;}
     
    
 }
