@@ -32,6 +32,10 @@
     .experience .com-name .heading-3{line-height: 32px;}
     .experience .com-name .heading-4, .experience .com-name .heading-5{font-size: 20px;}
     .tech-skill ul{display: grid;grid-template-columns: 1fr 1fr 1fr;}
+    .education .main-box{display: grid;grid-template-columns: 1fr;margin-top: 40px;}
+    .experience .exp-main{display: grid;grid-template-columns: 1fr;margin-top: 40px;}
+    .banner-section .btn-box{display: block;}
+    .banner-section .btn-box .btn{margin-bottom: 10px;}
     
    
 }
